@@ -1,7 +1,1 @@
-# Ignore all files
-*
-# Except for index.html
-!index.html
-!css/
-!js/
-!img/
+node_modules
