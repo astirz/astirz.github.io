@@ -64,6 +64,9 @@ const sources = [
                 ]
             },
             {
+                "loc": "/blogs"
+            },
+            {
                 "loc": "/",
                 "images": [
                     {
@@ -90,10 +93,47 @@ const sources = [
                 "loc": "/categories"
             },
             {
-                "loc": "/blogs"
+                "loc": "/astirz.github.io/about",
+                "images": [
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/q_50&amp;s_125x115/riyad.jpg"
+                    },
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/q_50&amp;s_450x500/riyad.jpg"
+                    }
+                ]
             },
             {
-                "loc": "/blogs/connect-namecheap-to-vercel",
+                "loc": "/astirz.github.io/",
+                "images": [
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog6.jpg"
+                    },
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog5.jpg"
+                    },
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog4.jpg"
+                    },
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog1.jpg"
+                    },
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog2.jpg"
+                    },
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog3.jpg"
+                    }
+                ]
+            },
+            {
+                "loc": "/astirz.github.io/categories"
+            },
+            {
+                "loc": "/astirz.github.io/blogs"
+            },
+            {
+                "loc": "/astirz.github.io/blogs/connect-namecheap-to-vercel",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog1.jpg"
@@ -101,7 +141,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/blogs/create-namespace-subdomain-connect-to-vercel",
+                "loc": "/astirz.github.io/blogs/create-namespace-subdomain-connect-to-vercel",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog3.jpg"
@@ -109,7 +149,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/blogs/vue3-awesome-library",
+                "loc": "/astirz.github.io/blogs/vue3-awesome-library",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog5.jpg"
@@ -117,7 +157,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/blogs/fetch-content-data-render-pages",
+                "loc": "/astirz.github.io/blogs/fetch-content-data-render-pages",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog4.jpg"
@@ -125,7 +165,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/blogs/how-to-fix-vuex-type-issue",
+                "loc": "/astirz.github.io/blogs/how-to-fix-vuex-type-issue",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog6.jpg"
@@ -133,7 +173,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/blogs/fix-tailwindcss-intellisense-in-nuxt3",
+                "loc": "/astirz.github.io/blogs/fix-tailwindcss-intellisense-in-nuxt3",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog2.jpg"
@@ -141,7 +181,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/categories/vue",
+                "loc": "/astirz.github.io/categories/vue",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog5.jpg"
@@ -152,7 +192,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/categories/vuex",
+                "loc": "/astirz.github.io/categories/vuex",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog6.jpg"
@@ -160,7 +200,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/categories/javascript",
+                "loc": "/astirz.github.io/categories/javascript",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog5.jpg"
@@ -168,7 +208,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/categories/nuxt",
+                "loc": "/astirz.github.io/categories/nuxt",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog2.jpg"
@@ -182,7 +222,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/categories/nuxt-content",
+                "loc": "/astirz.github.io/categories/nuxt-content",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog4.jpg"
@@ -190,7 +230,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/categories/vercel",
+                "loc": "/astirz.github.io/categories/vercel",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog1.jpg"
@@ -201,7 +241,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/categories/namecheap",
+                "loc": "/astirz.github.io/categories/namecheap",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog1.jpg"
@@ -212,7 +252,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/categories/tailwindcss",
+                "loc": "/astirz.github.io/categories/tailwindcss",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog2.jpg"
