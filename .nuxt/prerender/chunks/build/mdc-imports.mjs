@@ -1,5 +1,5 @@
-import { visit } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unist-util-visit/index.js';
-import { toString } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/hast-util-to-string/index.js';
+import { visit } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unist-util-visit/index.js';
+import { toString } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/hast-util-to-string/index.js';
 
 function rehypeHighlight$1(opts) {
   const options = opts;

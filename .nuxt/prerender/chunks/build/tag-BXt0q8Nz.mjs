@@ -1,5 +1,5 @@
-import { mergeProps, useSSRContext } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/vue/index.mjs';
-import { ssrRenderAttrs } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/vue/server-renderer/index.mjs';
+import { mergeProps, useSSRContext } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/vue/index.mjs';
+import { ssrRenderAttrs } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/vue/server-renderer/index.mjs';
 import { _ as _export_sfc } from './_plugin-vue_export-helper-1tPrXgE0.mjs';
 
 const _sfc_main$1 = {};

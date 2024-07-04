@@ -1,4 +1,4 @@
-import { defineComponent, getCurrentInstance, useSlots, computed, useSSRContext } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/vue/index.mjs';
+import { defineComponent, getCurrentInstance, useSlots, computed, useSSRContext } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/vue/index.mjs';
 import _sfc_main$1 from './ContentSlot-DY7LiAz9.mjs';
 
 const _sfc_main = defineComponent({

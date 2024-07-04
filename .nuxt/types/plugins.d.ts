@@ -20,8 +20,7 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt-og-image/dist/runtime/nuxt/plugins/route-rule-og-image.server").default> &
   InjectionType<typeof import("../../node_modules/nuxt-site-config/dist/runtime/nuxt/plugins/0.siteConfig").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/chunk-reload.client").default> &
-  InjectionType<typeof import("../../plugins/formik.client").default> &
-  InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/prerender.server").default>
+  InjectionType<typeof import("../../plugins/formik.client").default>
 
 declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }

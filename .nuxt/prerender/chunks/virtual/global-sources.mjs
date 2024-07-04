@@ -53,6 +53,17 @@ const sources = [
         "urls": [
             "/",
             {
+                "loc": "/about",
+                "images": [
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/q_50&amp;s_125x115/riyad.jpg"
+                    },
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/q_50&amp;s_450x500/riyad.jpg"
+                    }
+                ]
+            },
+            {
                 "loc": "/",
                 "images": [
                     {
@@ -76,52 +87,13 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/about",
-                "images": [
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/q_50&amp;s_125x115/riyad.jpg"
-                    },
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/q_50&amp;s_450x500/riyad.jpg"
-                    }
-                ]
+                "loc": "/categories"
             },
             {
-                "loc": "/about",
-                "images": [
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/q_50&amp;s_125x115/riyad.jpg"
-                    },
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/q_50&amp;s_450x500/riyad.jpg"
-                    }
-                ]
+                "loc": "/blogs"
             },
             {
-                "loc": "/astirz.github.io/",
-                "images": [
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog6.jpg"
-                    },
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog5.jpg"
-                    },
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog4.jpg"
-                    },
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog1.jpg"
-                    },
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog2.jpg"
-                    },
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog3.jpg"
-                    }
-                ]
-            },
-            {
-                "loc": "/astirz.github.io/blogs/connect-namecheap-to-vercel",
+                "loc": "/blogs/connect-namecheap-to-vercel",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog1.jpg"
@@ -129,13 +101,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/blogs"
-            },
-            {
-                "loc": "/astirz.github.io/blogs"
-            },
-            {
-                "loc": "/astirz.github.io/blogs/create-namespace-subdomain-connect-to-vercel",
+                "loc": "/blogs/create-namespace-subdomain-connect-to-vercel",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog3.jpg"
@@ -143,7 +109,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/blogs/vue3-awesome-library",
+                "loc": "/blogs/vue3-awesome-library",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog5.jpg"
@@ -151,13 +117,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/categories"
-            },
-            {
-                "loc": "/categories"
-            },
-            {
-                "loc": "/astirz.github.io/blogs/fetch-content-data-render-pages",
+                "loc": "/blogs/fetch-content-data-render-pages",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog4.jpg"
@@ -165,7 +125,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/blogs/how-to-fix-vuex-type-issue",
+                "loc": "/blogs/how-to-fix-vuex-type-issue",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog6.jpg"
@@ -173,7 +133,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/blogs/fix-tailwindcss-intellisense-in-nuxt3",
+                "loc": "/blogs/fix-tailwindcss-intellisense-in-nuxt3",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_600/blogs-img/blog2.jpg"
@@ -181,7 +141,18 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/categories/vuex",
+                "loc": "/categories/vue",
+                "images": [
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog5.jpg"
+                    },
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog6.jpg"
+                    }
+                ]
+            },
+            {
+                "loc": "/categories/vuex",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog6.jpg"
@@ -189,7 +160,15 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/categories/nuxt",
+                "loc": "/categories/javascript",
+                "images": [
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog5.jpg"
+                    }
+                ]
+            },
+            {
+                "loc": "/categories/nuxt",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog2.jpg"
@@ -203,26 +182,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/categories/javascript",
-                "images": [
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog5.jpg"
-                    }
-                ]
-            },
-            {
-                "loc": "/astirz.github.io/categories/vercel",
-                "images": [
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog1.jpg"
-                    },
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog3.jpg"
-                    }
-                ]
-            },
-            {
-                "loc": "/astirz.github.io/categories/nuxt-content",
+                "loc": "/categories/nuxt-content",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog4.jpg"
@@ -230,15 +190,7 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/categories/tailwindcss",
-                "images": [
-                    {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog2.jpg"
-                    }
-                ]
-            },
-            {
-                "loc": "/astirz.github.io/categories/namecheap",
+                "loc": "/categories/vercel",
                 "images": [
                     {
                         "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog1.jpg"
@@ -249,13 +201,21 @@ const sources = [
                 ]
             },
             {
-                "loc": "/astirz.github.io/categories/vue",
+                "loc": "/categories/namecheap",
                 "images": [
                     {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog5.jpg"
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog1.jpg"
                     },
                     {
-                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog6.jpg"
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog3.jpg"
+                    }
+                ]
+            },
+            {
+                "loc": "/categories/tailwindcss",
+                "images": [
+                    {
+                        "loc": "https://blog.nurriyad.xyz/_ipx/w_300/blogs-img/blog2.jpg"
                     }
                 ]
             }

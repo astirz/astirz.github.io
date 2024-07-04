@@ -1,48 +1,48 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHost, getRequestProtocol, getQuery as getQuery$1, createError, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, getResponseHeader, setHeader, getCookie, getHeader, appendHeader, lazyEventHandler, useBase, createApp, createRouter as createRouter$1, toNodeListener } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/ofetch/dist/node.mjs';
-import destr, { destr as destr$1 } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/hookable/dist/index.mjs';
-import { klona } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/klona/dist/index.mjs';
-import { snakeCase, kebabCase, pascalCase, camelCase } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/scule/dist/index.mjs';
-import defu, { defuFn, defu as defu$1, createDefu } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, hasProtocol, withHttps, withoutProtocol, withTrailingSlash, withLeadingSlash, withBase, withoutTrailingSlash, withoutLeadingSlash, decodePath, isRelative } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage, normalizeKey } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unstorage/drivers/fs.mjs';
-import file_58_47_47_47C_58_47Users_47Phong_47Desktop_47Materials_47repo_47nuxt_45blog_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js from 'file:///C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
-import unstorage_47drivers_47fs_45lite from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unstorage/drivers/fs-lite.mjs';
-import { toRouteMatcher, createRouter } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/radix3/dist/index.mjs';
-import { toValue } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/vue/index.mjs';
-import { defineNitroPlugin as defineNitroPlugin$1 } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/nitropack/dist/runtime/plugin.mjs';
-import lruCacheDriver from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unstorage/drivers/lru-cache.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHost, getRequestProtocol, getQuery as getQuery$1, createError, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, getResponseHeader, setHeader, getCookie, getHeader, appendHeader, lazyEventHandler, useBase, createApp, createRouter as createRouter$1, toNodeListener } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/ofetch/dist/node.mjs';
+import destr, { destr as destr$1 } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/hookable/dist/index.mjs';
+import { klona } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/klona/dist/index.mjs';
+import { snakeCase, kebabCase, pascalCase, camelCase } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/scule/dist/index.mjs';
+import defu, { defuFn, defu as defu$1, createDefu } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, hasProtocol, withHttps, withoutProtocol, withTrailingSlash, withLeadingSlash, withBase, withoutTrailingSlash, withoutLeadingSlash, decodePath, isRelative } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage, normalizeKey } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unstorage/drivers/fs.mjs';
+import file_58_47_47_47C_58_47Users_47Phong_47Desktop_47Materials_47astirz_46github_46io_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js from 'file:///C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
+import unstorage_47drivers_47fs_45lite from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unstorage/drivers/fs-lite.mjs';
+import { toRouteMatcher, createRouter } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/radix3/dist/index.mjs';
+import { toValue } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/vue/index.mjs';
+import { defineNitroPlugin as defineNitroPlugin$1 } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/nitropack/dist/runtime/plugin.mjs';
+import lruCacheDriver from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unstorage/drivers/lru-cache.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve as resolve$1, extname, isAbsolute } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/pathe/dist/index.mjs';
-import { isSpecialLang, isSpecialTheme, addClassToHast, getHighlighterCore } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/core.mjs';
-import { transformerNotationDiff, transformerNotationFocus, transformerNotationHighlight, transformerNotationErrorLevel } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/@shikijs/transformers/dist/index.mjs';
-import { unified } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unified/index.js';
-import { toString as toString$1 } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/mdast-util-to-string/index.js';
-import { postprocess, preprocess } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/micromark/index.js';
-import { stringifyPosition } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unist-util-stringify-position/index.js';
-import { markdownLineEnding, markdownSpace } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/micromark-util-character/index.js';
-import { push, splice } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/micromark-util-chunked/index.js';
-import { resolveAll } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/micromark-util-resolve-all/index.js';
-import { normalizeUri } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/micromark-util-sanitize-uri/index.js';
-import slugify from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/slugify/slugify.js';
-import remarkParse from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/remark-parse/index.js';
-import remark2rehype from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/remark-rehype/index.js';
-import remarkMDC, { parseFrontMatter } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/remark-mdc/dist/index.mjs';
-import { toString } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/hast-util-to-string/index.js';
-import Slugger from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/github-slugger/index.js';
-import { detab } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/detab/index.js';
-import remarkEmoji from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/remark-emoji/index.js';
-import remarkGFM from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/remark-gfm/index.js';
-import rehypeExternalLinks from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/rehype-external-links/index.js';
-import rehypeSortAttributeValues from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/rehype-sort-attribute-values/index.js';
-import rehypeSortAttributes from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/rehype-sort-attributes/index.js';
-import rehypeRaw from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/rehype-raw/index.js';
-import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/ipx/dist/index.mjs';
+import { dirname, resolve as resolve$1, extname, isAbsolute } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/pathe/dist/index.mjs';
+import { isSpecialLang, isSpecialTheme, addClassToHast, getHighlighterCore } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/core.mjs';
+import { transformerNotationDiff, transformerNotationFocus, transformerNotationHighlight, transformerNotationErrorLevel } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/@shikijs/transformers/dist/index.mjs';
+import { unified } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unified/index.js';
+import { toString as toString$1 } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/mdast-util-to-string/index.js';
+import { postprocess, preprocess } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/micromark/index.js';
+import { stringifyPosition } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unist-util-stringify-position/index.js';
+import { markdownLineEnding, markdownSpace } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/micromark-util-character/index.js';
+import { push, splice } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/micromark-util-chunked/index.js';
+import { resolveAll } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/micromark-util-resolve-all/index.js';
+import { normalizeUri } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/micromark-util-sanitize-uri/index.js';
+import slugify from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/slugify/slugify.js';
+import remarkParse from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/remark-parse/index.js';
+import remark2rehype from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/remark-rehype/index.js';
+import remarkMDC, { parseFrontMatter } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/remark-mdc/dist/index.mjs';
+import { toString } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/hast-util-to-string/index.js';
+import Slugger from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/github-slugger/index.js';
+import { detab } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/detab/index.js';
+import remarkEmoji from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/remark-emoji/index.js';
+import remarkGFM from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/remark-gfm/index.js';
+import rehypeExternalLinks from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/rehype-external-links/index.js';
+import rehypeSortAttributeValues from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/rehype-raw/index.js';
+import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/ipx/dist/index.mjs';
 
 function getEnv(key, opts) {
   const envKey = snakeCase(key).toUpperCase();
@@ -83,7 +83,9 @@ function _expandFromEnv(value) {
 }
 
 const inlineAppConfig = {
-  "nuxt": {}
+  "nuxt": {
+    "buildId": "22ce5de2-9f56-42e2-bb0b-e43220f39988"
+  }
 };
 
 
@@ -92,8 +94,7 @@ const appConfig = defuFn(inlineAppConfig);
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/astirz.github.io/",
-    "buildId": "1b1bcc54-789d-4fa1-903a-2f7eeef759dc",
+    "baseURL": "/",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -175,7 +176,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1719203261767,
+      "integrity": 1720068228930,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -384,7 +385,7 @@ const _inlineRuntimeConfig = {
     "sitemaps": {
       "sitemap.xml": {
         "sitemapName": "sitemap.xml",
-        "route": "/astirz.github.io/sitemap.xml",
+        "route": "sitemap.xml",
         "defaults": {},
         "include": [],
         "exclude": [
@@ -400,7 +401,7 @@ const _inlineRuntimeConfig = {
       {
         "_context": "system",
         "_priority": -15,
-        "name": "nuxt-blog",
+        "name": "astirz.github.io",
         "env": "production"
       },
       {
@@ -457,7 +458,7 @@ const _inlineRuntimeConfig = {
     "alias": {},
     "fs": {
       "dir": [
-        "C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/public"
+        "C:/Users/Phong/Desktop/Materials/astirz.github.io/public"
       ]
     },
     "http": {
@@ -520,7 +521,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"nuxt-og-image:fonts","dir":"C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/.nuxt/cache/nuxt-og-image@3.0.0-rc.53/_fonts"},{"baseName":"server","dir":"C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/server/assets"}];
+const serverAssets = [{"baseName":"nuxt-og-image:fonts","dir":"C:/Users/Phong/Desktop/Materials/astirz.github.io/.nuxt/cache/nuxt-og-image@3.0.0-rc.53/_fonts"},{"baseName":"server","dir":"C:/Users/Phong/Desktop/Materials/astirz.github.io/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -532,14 +533,14 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('internal:nuxt:prerender', file_58_47_47_47C_58_47Users_47Phong_47Desktop_47Materials_47repo_47nuxt_45blog_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"file:///C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/.nuxt/cache/nitro/prerender"}));
-storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"C:\\Users\\Phong\\Desktop\\Materials\\repo\\nuxt-blog\\.data\\kv"}));
-storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"C:\\Users\\Phong\\Desktop\\Materials\\repo\\nuxt-blog\\content","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\Phong\\Desktop\\Materials\\repo\\nuxt-blog\\.nuxt\\content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\Phong\\Desktop\\Materials\\repo\\nuxt-blog","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\Phong\\Desktop\\Materials\\repo\\nuxt-blog\\server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\Phong\\Desktop\\Materials\\repo\\nuxt-blog\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\Phong\\Desktop\\Materials\\repo\\nuxt-blog\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('internal:nuxt:prerender', file_58_47_47_47C_58_47Users_47Phong_47Desktop_47Materials_47astirz_46github_46io_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"file:///C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"C:/Users/Phong/Desktop/Materials/astirz.github.io/.nuxt/cache/nitro/prerender"}));
+storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"C:\\Users\\Phong\\Desktop\\Materials\\astirz.github.io\\.data\\kv"}));
+storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"C:\\Users\\Phong\\Desktop\\Materials\\astirz.github.io\\content","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"C:\\Users\\Phong\\Desktop\\Materials\\astirz.github.io\\.nuxt\\content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\Phong\\Desktop\\Materials\\astirz.github.io","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\Phong\\Desktop\\Materials\\astirz.github.io\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\Phong\\Desktop\\Materials\\astirz.github.io\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\Phong\\Desktop\\Materials\\astirz.github.io\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -2097,7 +2098,7 @@ function contentHeading(body) {
 }
 
 const PRERENDER_NO_SSR_ROUTES = /* @__PURE__ */ new Set(["/index.html", "/200.html", "/404.html"]);
-const _E7UdWdv3c9 = defineNitroPlugin(async (nitroApp) => {
+const _xK6G0eUg7X = defineNitroPlugin(async (nitroApp) => {
   nitroApp.hooks.hook("render:html", async (ctx, { event }) => {
     const routeOptions = getRouteRules(event);
     const isIsland = process.env.NUXT_COMPONENT_ISLANDS && event.path.startsWith("/__nuxt_island");
@@ -2204,7 +2205,7 @@ function useOgImageRuntimeConfig() {
   return useRuntimeConfig()["nuxt-og-image"];
 }
 
-const _HvkgAyPcgP = defineNitroPlugin$1((nitroApp) => {
+const _yEh6F9rpFH = defineNitroPlugin$1((nitroApp) => {
   const { isNuxtContentDocumentDriven, defaults } = useOgImageRuntimeConfig();
   nitroApp.hooks.hook("content:file:afterParse", async (content) => {
     if (content._draft || content._extension !== "md" || content._partial || content.indexable === false || content.index === false)
@@ -2467,7 +2468,7 @@ async function fetchPathHtmlAndExtractOptions(e, path, key) {
   return payload;
 }
 
-const _JRSjJqwnNn = defineNitroPlugin$1(async (nitro) => {
+const _maOwPe3WWA = defineNitroPlugin$1(async (nitro) => {
   nitro.hooks.hook("render:html", async (html, ctx) => {
     const { head, bodyAppend } = html;
     const path = parseURL(ctx.event.path).pathname;
@@ -2530,7 +2531,7 @@ function useSimpleSitemapRuntimeConfig() {
   return Object.freeze(clone);
 }
 
-const _UFcnPTrZf1 = defineNitroPlugin$1((nitroApp) => {
+const _biqx7n32pW = defineNitroPlugin$1((nitroApp) => {
   const { discoverImages, isNuxtContentDocumentDriven } = useSimpleSitemapRuntimeConfig();
   nitroApp.hooks.hook("content:file:afterParse", async (content) => {
     if (content.sitemap === false || content._draft || content._extension !== "md" || content._partial || content.indexable === false || content.index === false)
@@ -2568,18 +2569,18 @@ const _UFcnPTrZf1 = defineNitroPlugin$1((nitroApp) => {
 
 const script = "\"use strict\";(()=>{const a=window,e=document.documentElement,c=window.localStorage,d=[\"dark\",\"light\"],n=c&&c.getItem&&c.getItem(\"nuxt-color-mode\")||\"dark\";let l=n===\"system\"?f():n;const i=e.getAttribute(\"data-color-mode-forced\");i&&(l=i),r(l),a[\"__NUXT_COLOR_MODE__\"]={preference:n,value:l,getColorScheme:f,addColorScheme:r,removeColorScheme:u};function r(o){const t=\"\"+o+\"\",s=\"\";e.classList?e.classList.add(t):e.className+=\" \"+t,s&&e.setAttribute(\"data-\"+s,o)}function u(o){const t=\"\"+o+\"\",s=\"\";e.classList?e.classList.remove(t):e.className=e.className.replace(new RegExp(t,\"g\"),\"\"),s&&e.removeAttribute(\"data-\"+s)}function m(o){return a.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function f(){if(a.matchMedia&&m(\"\").media!==\"not all\"){for(const o of d)if(m(\":\"+o).matches)return o}return\"light\"}})();\n";
 
-const _nnBJ5lhno1 = (function(nitro) {
+const _o5BAuJOure = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
 const plugins = [
-  _E7UdWdv3c9,
-_HvkgAyPcgP,
-_JRSjJqwnNn,
-_UFcnPTrZf1,
-_nnBJ5lhno1
+  _xK6G0eUg7X,
+_yEh6F9rpFH,
+_maOwPe3WWA,
+_biqx7n32pW,
+_o5BAuJOure
 ];
 
 const errorHandler = (async function errorhandler(error, event) {
@@ -2642,687 +2643,687 @@ const errorHandler = (async function errorhandler(error, event) {
 const assets = {
   "/200.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"f37c-X7gM6uA04Ib6CCOSKv1JbgJD2xU\"",
-    "mtime": "2024-06-24T04:28:21.012Z",
-    "size": 62332,
+    "etag": "\"f2b3-0k+6o1kZxM4lKPsBatiL9g61pN8\"",
+    "mtime": "2024-07-04T04:44:15.991Z",
+    "size": 62131,
     "path": "../../.output/public/200.html"
   },
   "/404.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"f37c-X7gM6uA04Ib6CCOSKv1JbgJD2xU\"",
-    "mtime": "2024-06-24T04:28:20.969Z",
-    "size": 62332,
+    "etag": "\"f2b3-0k+6o1kZxM4lKPsBatiL9g61pN8\"",
+    "mtime": "2024-07-04T04:44:16.009Z",
+    "size": 62131,
     "path": "../../.output/public/404.html"
   },
   "/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"1f42e-7Hg4zoxeaP/F/DtvlJfrQ2q6tGg\"",
-    "mtime": "2024-06-24T04:28:22.109Z",
-    "size": 128046,
+    "etag": "\"1ef63-ewl1jga3W9qWpIyPtAmpRFv+UpY\"",
+    "mtime": "2024-07-04T04:44:16.247Z",
+    "size": 126819,
     "path": "../../.output/public/index.html"
   },
   "/robots.txt": {
     "type": "text/plain; charset=utf-8",
     "etag": "\"18-bfxCf+c1h3Jnl/R8mB4vJPXcxh8\"",
-    "mtime": "2024-06-24T04:28:18.474Z",
+    "mtime": "2024-07-04T04:44:14.579Z",
     "size": 24,
     "path": "../../.output/public/robots.txt"
   },
   "/_payload.json": {
     "type": "application/json",
-    "etag": "\"c626-XgxB4Fel4vJNnOnxdYS9KI/Ub7s\"",
-    "mtime": "2024-06-24T04:28:22.568Z",
-    "size": 50726,
+    "etag": "\"c61f-qffazTHdRq82PpFyFNfUh7rwN1g\"",
+    "mtime": "2024-07-04T04:44:17.261Z",
+    "size": 50719,
     "path": "../../.output/public/_payload.json"
   },
   "/about/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"12db5-WDlaOQgE0WeLOuk0MvBiYEvX/44\"",
-    "mtime": "2024-06-24T04:28:21.895Z",
-    "size": 77237,
+    "etag": "\"12a82-c2ZmCcBM2mqybDIbv8MLz2/SM4o\"",
+    "mtime": "2024-07-04T04:44:16.246Z",
+    "size": 76418,
     "path": "../../.output/public/about/index.html"
   },
   "/about/_payload.json": {
     "type": "application/json",
-    "etag": "\"45-Gusb6BFBDO4LyMhkY+yDvQcyEUI\"",
-    "mtime": "2024-06-24T04:28:22.714Z",
-    "size": 69,
+    "etag": "\"3e-q6dBPLA08xXgBrzVi5D/4i2OC7c\"",
+    "mtime": "2024-07-04T04:44:16.401Z",
+    "size": 62,
     "path": "../../.output/public/about/_payload.json"
   },
   "/blogs/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"16f50-yIN9NLEBAEv34ePPajXoR/BBSxE\"",
-    "mtime": "2024-06-24T04:28:22.427Z",
-    "size": 94032,
+    "etag": "\"16c19-6aTzXX+pKQ1E2l9cmU5byRJFHv4\"",
+    "mtime": "2024-07-04T04:44:16.402Z",
+    "size": 93209,
     "path": "../../.output/public/blogs/index.html"
   },
   "/blogs/_payload.json": {
     "type": "application/json",
-    "etag": "\"c608-yCpWIcIrZS0SFTnifMFIPntSMWM\"",
-    "mtime": "2024-06-24T04:28:22.856Z",
-    "size": 50696,
+    "etag": "\"c601-9su6kvTdGf+JVhXfDZoq6espRZ4\"",
+    "mtime": "2024-07-04T04:44:17.708Z",
+    "size": 50689,
     "path": "../../.output/public/blogs/_payload.json"
   },
   "/categories/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"2052f-e/IwayhOiMGTakmRe12UhwrR7zQ\"",
-    "mtime": "2024-06-24T04:28:22.498Z",
-    "size": 132399,
+    "etag": "\"20196-ZijRnRXgp5hzMKfhlQiWIGtIot8\"",
+    "mtime": "2024-07-04T04:44:16.321Z",
+    "size": 131478,
     "path": "../../.output/public/categories/index.html"
   },
   "/categories/_payload.json": {
     "type": "application/json",
-    "etag": "\"c61e-FGgn8XrqPUR3RpH42naD66uH9oY\"",
-    "mtime": "2024-06-24T04:28:23.138Z",
-    "size": 50718,
+    "etag": "\"c617-Vw48OuQKTesIccu0Mgv0ojPRDhM\"",
+    "mtime": "2024-07-04T04:44:17.578Z",
+    "size": 50711,
     "path": "../../.output/public/categories/_payload.json"
   },
   "/__sitemap__/style.xsl": {
     "type": "application/xml",
-    "etag": "\"174f-wveeixQ9ll4SWCd2XqawMJXLZQU\"",
-    "mtime": "2024-06-24T04:28:18.474Z",
-    "size": 5967,
+    "etag": "\"1756-rBsl03utEseZKEaYUbis7mhHn1Q\"",
+    "mtime": "2024-07-04T04:44:14.579Z",
+    "size": 5974,
     "path": "../../.output/public/__sitemap__/style.xsl"
   },
-  "/api/_content/cache.1719203261767.json": {
+  "/api/_content/cache.1720068228930.json": {
     "type": "application/json",
-    "etag": "\"d817-EMMdBtu62Ua3w8e37XH5x1gJt1k\"",
-    "mtime": "2024-06-24T04:28:21.064Z",
+    "etag": "\"d817-DE+KKhNi4e9V/leNxPiOFNtrod8\"",
+    "mtime": "2024-07-04T04:44:16.098Z",
     "size": 55319,
-    "path": "../../.output/public/api/_content/cache.1719203261767.json"
+    "path": "../../.output/public/api/_content/cache.1720068228930.json"
   },
   "/blogs/connect-namecheap-to-vercel/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"15836-gfzKF2MrKZrdUNiQNP0Zg/UBtoY\"",
-    "mtime": "2024-06-24T04:28:22.418Z",
-    "size": 88118,
+    "etag": "\"153e2-2ExkntY6/D+mB/fOorVSs3ssUAg\"",
+    "mtime": "2024-07-04T04:44:17.060Z",
+    "size": 87010,
     "path": "../../.output/public/blogs/connect-namecheap-to-vercel/index.html"
   },
   "/blogs/connect-namecheap-to-vercel/_payload.json": {
     "type": "application/json",
-    "etag": "\"157b-Zklg2jPLzrUDFTAEXEAQsMF9FBM\"",
-    "mtime": "2024-06-24T04:28:22.829Z",
-    "size": 5499,
+    "etag": "\"1574-Jgf3XllX1l+bNJfLO3272AA5jYY\"",
+    "mtime": "2024-07-04T04:44:17.951Z",
+    "size": 5492,
     "path": "../../.output/public/blogs/connect-namecheap-to-vercel/_payload.json"
   },
   "/blogs/create-namespace-subdomain-connect-to-vercel/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"15777-i8zA9EwHe1UQb4t9KRagSGwCGwk\"",
-    "mtime": "2024-06-24T04:28:22.431Z",
-    "size": 87927,
+    "etag": "\"15323-36MuCnwWZl5m/vZD8UfP1aRomNI\"",
+    "mtime": "2024-07-04T04:44:17.060Z",
+    "size": 86819,
     "path": "../../.output/public/blogs/create-namespace-subdomain-connect-to-vercel/index.html"
   },
   "/blogs/create-namespace-subdomain-connect-to-vercel/_payload.json": {
     "type": "application/json",
-    "etag": "\"129d-QHpCZ/3V7tbZ0xo6launC+RHqTw\"",
-    "mtime": "2024-06-24T04:28:22.872Z",
-    "size": 4765,
+    "etag": "\"1296-4TgbTvo64YELvLgS55nQeGtvJPU\"",
+    "mtime": "2024-07-04T04:44:18.086Z",
+    "size": 4758,
     "path": "../../.output/public/blogs/create-namespace-subdomain-connect-to-vercel/_payload.json"
   },
   "/blogs/fetch-content-data-render-pages/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"16fb3-DUvZ4U0Yx/8JHQYsXW3JiCutTA8\"",
-    "mtime": "2024-06-24T04:28:22.701Z",
-    "size": 94131,
+    "etag": "\"16b1b-Z3ZeR3kewTgTKJBRJiaFiHqiMlU\"",
+    "mtime": "2024-07-04T04:44:17.270Z",
+    "size": 92955,
     "path": "../../.output/public/blogs/fetch-content-data-render-pages/index.html"
   },
   "/blogs/fetch-content-data-render-pages/_payload.json": {
     "type": "application/json",
-    "etag": "\"4750-ASdKkUsZTXGN9yGNX5vkkUX2DV8\"",
-    "mtime": "2024-06-24T04:28:23.234Z",
-    "size": 18256,
+    "etag": "\"4749-yCuwKSqegh30n/kUdfIvKKpm/2g\"",
+    "mtime": "2024-07-04T04:44:18.330Z",
+    "size": 18249,
     "path": "../../.output/public/blogs/fetch-content-data-render-pages/_payload.json"
   },
   "/blogs/fix-tailwindcss-intellisense-in-nuxt3/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"15c82-fYBK6wpTcz9HBVwxeWV044d9brE\"",
-    "mtime": "2024-06-24T04:28:22.702Z",
-    "size": 89218,
+    "etag": "\"157d9-vFjiBZRMWdtPQs9lruAc/cQICig\"",
+    "mtime": "2024-07-04T04:44:17.271Z",
+    "size": 88025,
     "path": "../../.output/public/blogs/fix-tailwindcss-intellisense-in-nuxt3/index.html"
   },
   "/blogs/fix-tailwindcss-intellisense-in-nuxt3/_payload.json": {
     "type": "application/json",
-    "etag": "\"25b4-GtPWK8ctPklgrcN18F3M2L9lBE4\"",
-    "mtime": "2024-06-24T04:28:23.398Z",
-    "size": 9652,
+    "etag": "\"25ad-Pik4BnSq5f4uUAua1vFA/8qlS74\"",
+    "mtime": "2024-07-04T04:44:18.538Z",
+    "size": 9645,
     "path": "../../.output/public/blogs/fix-tailwindcss-intellisense-in-nuxt3/_payload.json"
   },
   "/blogs/how-to-fix-vuex-type-issue/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"1550c-ViPae5dBXahURMCd1oD7LWauM0w\"",
-    "mtime": "2024-06-24T04:28:22.702Z",
-    "size": 87308,
+    "etag": "\"15085-qknQPj6N1ISg7II1dRbyPxNi7M8\"",
+    "mtime": "2024-07-04T04:44:17.270Z",
+    "size": 86149,
     "path": "../../.output/public/blogs/how-to-fix-vuex-type-issue/index.html"
   },
   "/blogs/how-to-fix-vuex-type-issue/_payload.json": {
     "type": "application/json",
-    "etag": "\"1bf9-4KwfR5SZV0O/ojzHK+N2w2qD5gc\"",
-    "mtime": "2024-06-24T04:28:23.323Z",
-    "size": 7161,
+    "etag": "\"1bf2-XKncikg10X7IleEU/XTGhVwGQt4\"",
+    "mtime": "2024-07-04T04:44:18.350Z",
+    "size": 7154,
     "path": "../../.output/public/blogs/how-to-fix-vuex-type-issue/_payload.json"
   },
   "/blogs/vue3-awesome-library/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"15891-M5U5R6/GDfTYWjVDvgnFzpAa2pk\"",
-    "mtime": "2024-06-24T04:28:22.437Z",
-    "size": 88209,
+    "etag": "\"1541b-uvo6RKfwgpmDiqQyIxOd36VuQBE\"",
+    "mtime": "2024-07-04T04:44:17.060Z",
+    "size": 87067,
     "path": "../../.output/public/blogs/vue3-awesome-library/index.html"
   },
   "/blogs/vue3-awesome-library/_payload.json": {
     "type": "application/json",
-    "etag": "\"1a8d-AXVXeb5+iKg3/5CBCTjU146MIWc\"",
-    "mtime": "2024-06-24T04:28:22.933Z",
-    "size": 6797,
+    "etag": "\"1a86-S1mDLPOQmzEf4sa9OJcf7TVhMu4\"",
+    "mtime": "2024-07-04T04:44:18.298Z",
+    "size": 6790,
     "path": "../../.output/public/blogs/vue3-awesome-library/_payload.json"
   },
   "/categories/javascript/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"13395-4KFd2BlCnJ6//cfanq1ostlADoA\"",
-    "mtime": "2024-06-24T04:28:23.367Z",
-    "size": 78741,
+    "etag": "\"1300d-J/KyMo1hm2Fo2Cx6TUzH2gJyGUk\"",
+    "mtime": "2024-07-04T04:44:18.060Z",
+    "size": 77837,
     "path": "../../.output/public/categories/javascript/index.html"
   },
   "/categories/javascript/_payload.json": {
     "type": "application/json",
-    "etag": "\"1a86-++88Iy7NioP47v1SpmKLWtnXlJQ\"",
-    "mtime": "2024-06-24T04:28:23.545Z",
-    "size": 6790,
+    "etag": "\"1a7f-DI56sk65kWllLRTbAX+4U7azmto\"",
+    "mtime": "2024-07-04T04:44:18.694Z",
+    "size": 6783,
     "path": "../../.output/public/categories/javascript/_payload.json"
   },
   "/categories/namecheap/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"13c30-WRauFErpVUmXxpHmYMKAjSsKpwQ\"",
-    "mtime": "2024-06-24T04:28:23.368Z",
-    "size": 80944,
+    "etag": "\"13864-XtkBo0eKyo/evawjHR9JvojcF2I\"",
+    "mtime": "2024-07-04T04:44:18.095Z",
+    "size": 79972,
     "path": "../../.output/public/categories/namecheap/index.html"
   },
   "/categories/namecheap/_payload.json": {
     "type": "application/json",
-    "etag": "\"273e-dBh4eFqgxssjto8vDw86InpApqs\"",
-    "mtime": "2024-06-24T04:28:23.689Z",
-    "size": 10046,
+    "etag": "\"2737-T+g67BSxeo2nR7sgNtYvFm8oTAg\"",
+    "mtime": "2024-07-04T04:44:18.860Z",
+    "size": 10039,
     "path": "../../.output/public/categories/namecheap/_payload.json"
   },
   "/categories/nuxt/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"144e3-d7viGNc0bu/tFrzMgpg1k9/Fb6M\"",
-    "mtime": "2024-06-24T04:28:23.367Z",
-    "size": 83171,
+    "etag": "\"140d3-BO7fLBEv34HEGQoYCaBrywBXkOM\"",
+    "mtime": "2024-07-04T04:44:18.060Z",
+    "size": 82131,
     "path": "../../.output/public/categories/nuxt/index.html"
   },
   "/categories/nuxt/_payload.json": {
     "type": "application/json",
-    "etag": "\"7d3a-Tm7WqEcyZlbqkOCqRJBEzV+eBzg\"",
-    "mtime": "2024-06-24T04:28:23.515Z",
-    "size": 32058,
+    "etag": "\"7d33-Z9ghWnzqC/4lHio/hW/vPjvnXck\"",
+    "mtime": "2024-07-04T04:44:18.734Z",
+    "size": 32051,
     "path": "../../.output/public/categories/nuxt/_payload.json"
   },
   "/categories/nuxt-content/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"133a4-FqT/F/XZThWZMiZS6Yhj4NUhNug\"",
-    "mtime": "2024-06-24T04:28:23.367Z",
-    "size": 78756,
+    "etag": "\"1301c-amvB9qz9dwNsienXJIT2wPEygYQ\"",
+    "mtime": "2024-07-04T04:44:18.061Z",
+    "size": 77852,
     "path": "../../.output/public/categories/nuxt-content/index.html"
   },
   "/categories/nuxt-content/_payload.json": {
     "type": "application/json",
-    "etag": "\"4741-CqIzUqsdt5qoI+DgjXu63WgiD+g\"",
-    "mtime": "2024-06-24T04:28:23.616Z",
-    "size": 18241,
+    "etag": "\"473a-igpQOHAWyAS3l5vuA95Ww/uWoa8\"",
+    "mtime": "2024-07-04T04:44:18.782Z",
+    "size": 18234,
     "path": "../../.output/public/categories/nuxt-content/_payload.json"
-  },
-  "/categories/tailwindcss/index.html": {
-    "type": "text/html; charset=utf-8",
-    "etag": "\"133af-1dQVdSWSMaNM8gL/MccHl0p+n8Y\"",
-    "mtime": "2024-06-24T04:28:23.368Z",
-    "size": 78767,
-    "path": "../../.output/public/categories/tailwindcss/index.html"
-  },
-  "/categories/tailwindcss/_payload.json": {
-    "type": "application/json",
-    "etag": "\"259d-Mv+7oyg66xY7YyL1NDzPRT03Xco\"",
-    "mtime": "2024-06-24T04:28:23.678Z",
-    "size": 9629,
-    "path": "../../.output/public/categories/tailwindcss/_payload.json"
   },
   "/categories/vercel/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"13c0c-hsnxxDbCC6n2nttx86MK4B/RCSI\"",
-    "mtime": "2024-06-24T04:28:23.368Z",
-    "size": 80908,
+    "etag": "\"13840-7asEUq4k/jj4s4mT4a/DMwk65hg\"",
+    "mtime": "2024-07-04T04:44:18.082Z",
+    "size": 79936,
     "path": "../../.output/public/categories/vercel/index.html"
   },
   "/categories/vercel/_payload.json": {
     "type": "application/json",
-    "etag": "\"273b-jEOY8imG0mOlDmCxMqc18tLv5yM\"",
-    "mtime": "2024-06-24T04:28:23.584Z",
-    "size": 10043,
+    "etag": "\"2734-68HZ3zFyEGu+Xxu6eBxEZ2WRgP8\"",
+    "mtime": "2024-07-04T04:44:18.818Z",
+    "size": 10036,
     "path": "../../.output/public/categories/vercel/_payload.json"
+  },
+  "/categories/tailwindcss/index.html": {
+    "type": "text/html; charset=utf-8",
+    "etag": "\"13027-SlOejyZeee8Jk0MskPGUlZpTlUU\"",
+    "mtime": "2024-07-04T04:44:18.095Z",
+    "size": 77863,
+    "path": "../../.output/public/categories/tailwindcss/index.html"
+  },
+  "/categories/tailwindcss/_payload.json": {
+    "type": "application/json",
+    "etag": "\"2596-fxjbGOJXBIctOkWwIH74TIJIKcc\"",
+    "mtime": "2024-07-04T04:44:18.878Z",
+    "size": 9622,
+    "path": "../../.output/public/categories/tailwindcss/_payload.json"
   },
   "/categories/vue/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"13bc3-Q64WMjI01rI5DzIn4bmMCeNiV3o\"",
-    "mtime": "2024-06-24T04:28:23.368Z",
-    "size": 80835,
+    "etag": "\"137f7-XZrLqFqYZfgnoSHBglamH6ZDOLE\"",
+    "mtime": "2024-07-04T04:44:18.060Z",
+    "size": 79863,
     "path": "../../.output/public/categories/vue/index.html"
   },
   "/categories/vue/_payload.json": {
     "type": "application/json",
-    "etag": "\"362f-mRkmG64vT8BN/vO8G2CrMlv7CmI\"",
-    "mtime": "2024-06-24T04:28:23.711Z",
-    "size": 13871,
+    "etag": "\"3628-l9/JCHQjvkW46dSAYcXECHKRHzE\"",
+    "mtime": "2024-07-04T04:44:18.587Z",
+    "size": 13864,
     "path": "../../.output/public/categories/vue/_payload.json"
   },
   "/categories/vuex/index.html": {
     "type": "text/html; charset=utf-8",
-    "etag": "\"13308-84pHGJ8gyfh2/wY3+e4x5TZADAU\"",
-    "mtime": "2024-06-24T04:28:23.367Z",
-    "size": 78600,
+    "etag": "\"12f80-tIRXd+/qV93WhGUbeAQhBLtCx9k\"",
+    "mtime": "2024-07-04T04:44:18.060Z",
+    "size": 77696,
     "path": "../../.output/public/categories/vuex/index.html"
   },
   "/categories/vuex/_payload.json": {
     "type": "application/json",
-    "etag": "\"1bea-2cPbscDX0Q6kZLPB0EJv9Pp0pq4\"",
-    "mtime": "2024-06-24T04:28:23.514Z",
-    "size": 7146,
+    "etag": "\"1be3-qVmS14Z/hK3RDrRfOfFG3Ea8qPo\"",
+    "mtime": "2024-07-04T04:44:18.635Z",
+    "size": 7139,
     "path": "../../.output/public/categories/vuex/_payload.json"
   },
   "/_ipx/q_50&s_125x115/riyad.jpg": {
     "type": "image/jpeg",
     "etag": "\"921-itvEBb3MKuSSt0LLGwgOpaiTkvs\"",
-    "mtime": "2024-06-24T04:28:22.794Z",
+    "mtime": "2024-07-04T04:44:16.892Z",
     "size": 2337,
     "path": "../../.output/public/_ipx/q_50&s_125x115/riyad.jpg"
   },
   "/_ipx/q_50&s_250x230/riyad.jpg": {
     "type": "image/jpeg",
     "etag": "\"1536-iP78fLPXfRUVu07By6r9ieeqVfQ\"",
-    "mtime": "2024-06-24T04:28:22.794Z",
+    "mtime": "2024-07-04T04:44:16.864Z",
     "size": 5430,
     "path": "../../.output/public/_ipx/q_50&s_250x230/riyad.jpg"
   },
   "/_ipx/q_50&s_450x500/riyad.jpg": {
     "type": "image/jpeg",
     "etag": "\"3a1c-K0XDtiwHZYOW+Vh63OE7J3UUqKU\"",
-    "mtime": "2024-06-24T04:28:22.829Z",
+    "mtime": "2024-07-04T04:44:16.865Z",
     "size": 14876,
     "path": "../../.output/public/_ipx/q_50&s_450x500/riyad.jpg"
   },
   "/_ipx/q_50&s_900x1000/riyad.jpg": {
     "type": "image/jpeg",
     "etag": "\"a530-PxVQHfCFnek2qPo3ojjuiG2nIcs\"",
-    "mtime": "2024-06-24T04:28:22.829Z",
+    "mtime": "2024-07-04T04:44:16.865Z",
     "size": 42288,
     "path": "../../.output/public/_ipx/q_50&s_900x1000/riyad.jpg"
   },
   "/__og-image__/image/og.png": {
     "type": "image/png",
     "etag": "\"29497-+fdep6Z9uXqdd1ybnwthyubsS4E\"",
-    "mtime": "2024-06-24T04:28:22.498Z",
+    "mtime": "2024-07-04T04:44:17.395Z",
     "size": 169111,
     "path": "../../.output/public/__og-image__/image/og.png"
   },
-  "/api/_content/query/0l8rJj8I3c.1719203261767.json": {
+  "/api/_content/query/0l8rJj8I3c.1720068228930.json": {
     "type": "application/json",
     "etag": "\"1347-l8w8Y46EI1VHk5MnbXSmLl7Scxs\"",
-    "mtime": "2024-06-24T04:28:22.872Z",
+    "mtime": "2024-07-04T04:44:18.029Z",
     "size": 4935,
-    "path": "../../.output/public/api/_content/query/0l8rJj8I3c.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/0l8rJj8I3c.1720068228930.json"
   },
-  "/api/_content/query/aldQMwdNLK.1719203261767.json": {
+  "/api/_content/query/aldQMwdNLK.1720068228930.json": {
     "type": "application/json",
     "etag": "\"8790-8vp0KSjXLyFqGXcoLdhXTIU8+cY\"",
-    "mtime": "2024-06-24T04:28:23.691Z",
+    "mtime": "2024-07-04T04:44:18.886Z",
     "size": 34704,
-    "path": "../../.output/public/api/_content/query/aldQMwdNLK.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/aldQMwdNLK.1720068228930.json"
   },
-  "/api/_content/query/Bq7a8fqgoX.1719203261767.json": {
+  "/api/_content/query/Bq7a8fqgoX.1720068228930.json": {
     "type": "application/json",
     "etag": "\"25d4-F55/MUNfndxIY+KJkcwiWdGyGaQ\"",
-    "mtime": "2024-06-24T04:28:23.362Z",
+    "mtime": "2024-07-04T04:44:18.495Z",
     "size": 9684,
-    "path": "../../.output/public/api/_content/query/Bq7a8fqgoX.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/Bq7a8fqgoX.1720068228930.json"
   },
-  "/api/_content/query/EZU8WqnShM.1719203261767.json": {
+  "/api/_content/query/EZU8WqnShM.1720068228930.json": {
     "type": "application/json",
     "etag": "\"2938-wED8rrgLupKFaLukxXEJ/W4sSy4\"",
-    "mtime": "2024-06-24T04:28:23.715Z",
+    "mtime": "2024-07-04T04:44:18.901Z",
     "size": 10552,
-    "path": "../../.output/public/api/_content/query/EZU8WqnShM.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/EZU8WqnShM.1720068228930.json"
   },
-  "/api/_content/query/izXzLRPjjK.1719203261767.json": {
+  "/api/_content/query/izXzLRPjjK.1720068228930.json": {
     "type": "application/json",
     "etag": "\"25d6-Ulily/tUpDuuUDG8Wg3L9xqbRbM\"",
-    "mtime": "2024-06-24T04:28:23.732Z",
+    "mtime": "2024-07-04T04:44:18.911Z",
     "size": 9686,
-    "path": "../../.output/public/api/_content/query/izXzLRPjjK.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/izXzLRPjjK.1720068228930.json"
   },
-  "/api/_content/query/KC22hs8gpF.1719203261767.json": {
+  "/api/_content/query/KC22hs8gpF.1720068228930.json": {
     "type": "application/json",
     "etag": "\"d503-mh+nWIiaeyszjwIggv32/FZX7UQ\"",
-    "mtime": "2024-06-24T04:28:23.149Z",
+    "mtime": "2024-07-04T04:44:18.038Z",
     "size": 54531,
-    "path": "../../.output/public/api/_content/query/KC22hs8gpF.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/KC22hs8gpF.1720068228930.json"
   },
-  "/api/_content/query/mqcqxUfAsn.1719203261767.json": {
+  "/api/_content/query/mqcqxUfAsn.1720068228930.json": {
     "type": "application/json",
     "etag": "\"2938-wED8rrgLupKFaLukxXEJ/W4sSy4\"",
-    "mtime": "2024-06-24T04:28:23.746Z",
+    "mtime": "2024-07-04T04:44:18.909Z",
     "size": 10552,
-    "path": "../../.output/public/api/_content/query/mqcqxUfAsn.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/mqcqxUfAsn.1720068228930.json"
   },
-  "/api/_content/query/mu3dFwFLwM.1719203261767.json": {
+  "/api/_content/query/mu3dFwFLwM.1720068228930.json": {
     "type": "application/json",
     "etag": "\"15ee-gnpZeDZpCZTU/F7QRxOTP3soWGc\"",
-    "mtime": "2024-06-24T04:28:22.794Z",
+    "mtime": "2024-07-04T04:44:17.770Z",
     "size": 5614,
-    "path": "../../.output/public/api/_content/query/mu3dFwFLwM.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/mu3dFwFLwM.1720068228930.json"
   },
-  "/api/_content/query/NA4yyg8piL.1719203261767.json": {
+  "/api/_content/query/NA4yyg8piL.1720068228930.json": {
     "type": "application/json",
     "etag": "\"4e73-RTSN5Drj7ZD0YwofWwM/A+O6u2E\"",
-    "mtime": "2024-06-24T04:28:23.723Z",
+    "mtime": "2024-07-04T04:44:18.892Z",
     "size": 20083,
-    "path": "../../.output/public/api/_content/query/NA4yyg8piL.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/NA4yyg8piL.1720068228930.json"
   },
-  "/api/_content/query/r1NnIv8ML6.1719203261767.json": {
+  "/api/_content/query/r1NnIv8ML6.1720068228930.json": {
     "type": "application/json",
     "etag": "\"3785-fRQIAkQZTW6tfmil1U4+rU7d0oY\"",
-    "mtime": "2024-06-24T04:28:23.746Z",
+    "mtime": "2024-07-04T04:44:18.817Z",
     "size": 14213,
-    "path": "../../.output/public/api/_content/query/r1NnIv8ML6.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/r1NnIv8ML6.1720068228930.json"
   },
-  "/api/_content/query/RmIH8klQ6H.1719203261767.json": {
+  "/api/_content/query/RmIH8klQ6H.1720068228930.json": {
     "type": "application/json",
     "etag": "\"19a7-/Mz6CYmQ8I2n9l8veYdhPbDuRKc\"",
-    "mtime": "2024-06-24T04:28:23.691Z",
+    "mtime": "2024-07-04T04:44:18.867Z",
     "size": 6567,
-    "path": "../../.output/public/api/_content/query/RmIH8klQ6H.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/RmIH8klQ6H.1720068228930.json"
   },
-  "/api/_content/query/rxNjDaCyIs.1719203261767.json": {
+  "/api/_content/query/rxNjDaCyIs.1720068228930.json": {
     "type": "application/json",
     "etag": "\"4f0d-HBJKV8m/iKlQkygxcMsH5CK235I\"",
-    "mtime": "2024-06-24T04:28:22.104Z",
+    "mtime": "2024-07-04T04:44:16.950Z",
     "size": 20237,
-    "path": "../../.output/public/api/_content/query/rxNjDaCyIs.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/rxNjDaCyIs.1720068228930.json"
   },
-  "/api/_content/query/SP9sEl8Rkp.1719203261767.json": {
+  "/api/_content/query/SP9sEl8Rkp.1720068228930.json": {
     "type": "application/json",
     "etag": "\"19a5-N2R3e+y+cr6pb0/o5G59F75w7nY\"",
-    "mtime": "2024-06-24T04:28:22.933Z",
+    "mtime": "2024-07-04T04:44:18.281Z",
     "size": 6565,
-    "path": "../../.output/public/api/_content/query/SP9sEl8Rkp.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/SP9sEl8Rkp.1720068228930.json"
   },
-  "/api/_content/query/v0dokBp2Ck.1719203261767.json": {
+  "/api/_content/query/v0dokBp2Ck.1720068228930.json": {
     "type": "application/json",
     "etag": "\"4e71-BirLE3m6xZtiusWifO0OsbgWN+Y\"",
-    "mtime": "2024-06-24T04:28:23.160Z",
+    "mtime": "2024-07-04T04:44:18.330Z",
     "size": 20081,
-    "path": "../../.output/public/api/_content/query/v0dokBp2Ck.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/v0dokBp2Ck.1720068228930.json"
   },
-  "/api/_content/query/vehN2UmQbx.1719203261767.json": {
+  "/api/_content/query/vehN2UmQbx.1720068228930.json": {
     "type": "application/json",
     "etag": "\"85f7-zjriHTOVRsWDoTJ5C26dOWF3yAM\"",
-    "mtime": "2024-06-24T04:28:21.992Z",
+    "mtime": "2024-07-04T04:44:16.922Z",
     "size": 34295,
-    "path": "../../.output/public/api/_content/query/vehN2UmQbx.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/vehN2UmQbx.1720068228930.json"
   },
-  "/api/_content/query/vpB9dTFvqH.1719203261767.json": {
+  "/api/_content/query/vpB9dTFvqH.1720068228930.json": {
     "type": "application/json",
     "etag": "\"1ddd-SvuiwX6ypBYaFZdsiYXIcnkHcxE\"",
-    "mtime": "2024-06-24T04:28:23.283Z",
+    "mtime": "2024-07-04T04:44:18.350Z",
     "size": 7645,
-    "path": "../../.output/public/api/_content/query/vpB9dTFvqH.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/vpB9dTFvqH.1720068228930.json"
   },
-  "/api/_content/query/xuSOWIuB0X.1719203261767.json": {
+  "/api/_content/query/xuSOWIuB0X.1720068228930.json": {
     "type": "application/json",
     "etag": "\"1ddf-jihqGrTOAG1RTb2VUiOxJY7wM/4\"",
-    "mtime": "2024-06-24T04:28:23.689Z",
+    "mtime": "2024-07-04T04:44:18.843Z",
     "size": 7647,
-    "path": "../../.output/public/api/_content/query/xuSOWIuB0X.1719203261767.json"
+    "path": "../../.output/public/api/_content/query/xuSOWIuB0X.1720068228930.json"
   },
   "/_ipx/w_1200/blogs-img/blog1.jpg": {
     "type": "image/jpeg",
     "etag": "\"16cd9-kVPBc0b7IVrd0VEFpIHWUib8RqA\"",
-    "mtime": "2024-06-24T04:28:23.111Z",
+    "mtime": "2024-07-04T04:44:18.228Z",
     "size": 93401,
     "path": "../../.output/public/_ipx/w_1200/blogs-img/blog1.jpg"
   },
   "/_ipx/w_1200/blogs-img/blog2.jpg": {
     "type": "image/jpeg",
     "etag": "\"da2b-3iLSPBhfUhF5+LkSAE6B2Cd7Vug\"",
-    "mtime": "2024-06-24T04:28:23.601Z",
+    "mtime": "2024-07-04T04:44:18.718Z",
     "size": 55851,
     "path": "../../.output/public/_ipx/w_1200/blogs-img/blog2.jpg"
   },
   "/_ipx/w_1200/blogs-img/blog3.jpg": {
     "type": "image/jpeg",
     "etag": "\"16557-Cm2VMVOb07nvZYw6wup/s+ICkUg\"",
-    "mtime": "2024-06-24T04:28:23.137Z",
+    "mtime": "2024-07-04T04:44:18.352Z",
     "size": 91479,
     "path": "../../.output/public/_ipx/w_1200/blogs-img/blog3.jpg"
   },
   "/_ipx/w_1200/blogs-img/blog4.jpg": {
     "type": "image/jpeg",
     "etag": "\"79e9-zXHLaa5H5RAN7bTp8TVMCBHRtGM\"",
-    "mtime": "2024-06-24T04:28:23.447Z",
+    "mtime": "2024-07-04T04:44:18.586Z",
     "size": 31209,
     "path": "../../.output/public/_ipx/w_1200/blogs-img/blog4.jpg"
   },
   "/_ipx/w_1200/blogs-img/blog5.jpg": {
     "type": "image/jpeg",
     "etag": "\"14f73-4Led415Zrso0pyzngzgINjWzMvE\"",
-    "mtime": "2024-06-24T04:28:23.149Z",
+    "mtime": "2024-07-04T04:44:18.555Z",
     "size": 85875,
     "path": "../../.output/public/_ipx/w_1200/blogs-img/blog5.jpg"
   },
   "/_ipx/w_1200/blogs-img/blog6.jpg": {
     "type": "image/jpeg",
     "etag": "\"4c84-FLiZHTwpwNTjb4dXimezhRNfALc\"",
-    "mtime": "2024-06-24T04:28:23.483Z",
+    "mtime": "2024-07-04T04:44:18.635Z",
     "size": 19588,
     "path": "../../.output/public/_ipx/w_1200/blogs-img/blog6.jpg"
   },
   "/_ipx/w_300/blogs-img/blog1.jpg": {
     "type": "image/jpeg",
     "etag": "\"2837-HvSJ/r9FjrV0oPUkJuBIsGN3LVM\"",
-    "mtime": "2024-06-24T04:28:22.632Z",
+    "mtime": "2024-07-04T04:44:17.194Z",
     "size": 10295,
     "path": "../../.output/public/_ipx/w_300/blogs-img/blog1.jpg"
   },
   "/_ipx/w_300/blogs-img/blog2.jpg": {
     "type": "image/jpeg",
     "etag": "\"1e4a-7FNxdc1cBnrGMz8vxluMFNiGVsY\"",
-    "mtime": "2024-06-24T04:28:22.667Z",
+    "mtime": "2024-07-04T04:44:17.395Z",
     "size": 7754,
     "path": "../../.output/public/_ipx/w_300/blogs-img/blog2.jpg"
   },
   "/_ipx/w_300/blogs-img/blog3.jpg": {
     "type": "image/jpeg",
     "etag": "\"2aac-9T/fgZnf3M24y/WJNj7lPSqm/Og\"",
-    "mtime": "2024-06-24T04:28:22.696Z",
+    "mtime": "2024-07-04T04:44:17.505Z",
     "size": 10924,
     "path": "../../.output/public/_ipx/w_300/blogs-img/blog3.jpg"
   },
   "/_ipx/w_300/blogs-img/blog4.jpg": {
     "type": "image/jpeg",
     "etag": "\"1207-BbFgtwy7c9wh3xkoUKp7tZIVvOo\"",
-    "mtime": "2024-06-24T04:28:22.497Z",
+    "mtime": "2024-07-04T04:44:17.145Z",
     "size": 4615,
     "path": "../../.output/public/_ipx/w_300/blogs-img/blog4.jpg"
   },
   "/_ipx/w_300/blogs-img/blog5.jpg": {
     "type": "image/jpeg",
     "etag": "\"4dae-Y+3EZgI0IJIjyvFOnXLcW0w3ABY\"",
-    "mtime": "2024-06-24T04:28:22.427Z",
+    "mtime": "2024-07-04T04:44:17.152Z",
     "size": 19886,
     "path": "../../.output/public/_ipx/w_300/blogs-img/blog5.jpg"
   },
   "/_ipx/w_300/blogs-img/blog6.jpg": {
     "type": "image/jpeg",
     "etag": "\"1289-sl9CNCVBO1bkL4kA6xTBYasxWck\"",
-    "mtime": "2024-06-24T04:28:22.392Z",
+    "mtime": "2024-07-04T04:44:16.983Z",
     "size": 4745,
     "path": "../../.output/public/_ipx/w_300/blogs-img/blog6.jpg"
   },
   "/_ipx/w_600/blogs-img/blog1.jpg": {
     "type": "image/jpeg",
     "etag": "\"7adb-8xBy2908SnfYL69fQ85nyD/gQTU\"",
-    "mtime": "2024-06-24T04:28:22.715Z",
+    "mtime": "2024-07-04T04:44:17.395Z",
     "size": 31451,
     "path": "../../.output/public/_ipx/w_600/blogs-img/blog1.jpg"
   },
   "/_ipx/w_600/blogs-img/blog2.jpg": {
     "type": "image/jpeg",
     "etag": "\"5180-RDIAjNhdlHDwX9K5Nqs2Gk5W3Jg\"",
-    "mtime": "2024-06-24T04:28:22.696Z",
+    "mtime": "2024-07-04T04:44:17.395Z",
     "size": 20864,
     "path": "../../.output/public/_ipx/w_600/blogs-img/blog2.jpg"
   },
   "/_ipx/w_600/blogs-img/blog3.jpg": {
     "type": "image/jpeg",
     "etag": "\"7d3b-jWtf+md6EGp5nNBUEzlIqYupE3E\"",
-    "mtime": "2024-06-24T04:28:22.759Z",
+    "mtime": "2024-07-04T04:44:17.514Z",
     "size": 32059,
     "path": "../../.output/public/_ipx/w_600/blogs-img/blog3.jpg"
   },
   "/_ipx/w_600/blogs-img/blog4.jpg": {
     "type": "image/jpeg",
     "etag": "\"2e38-Yp7125PSgaTZouDrEv9vuNSiGFY\"",
-    "mtime": "2024-06-24T04:28:22.631Z",
+    "mtime": "2024-07-04T04:44:17.194Z",
     "size": 11832,
     "path": "../../.output/public/_ipx/w_600/blogs-img/blog4.jpg"
   },
   "/_ipx/w_600/blogs-img/blog5.jpg": {
     "type": "image/jpeg",
     "etag": "\"ffb9-w6tyyC8xyX6qsCRSzRDfIGzZ3y0\"",
-    "mtime": "2024-06-24T04:28:22.490Z",
+    "mtime": "2024-07-04T04:44:17.154Z",
     "size": 65465,
     "path": "../../.output/public/_ipx/w_600/blogs-img/blog5.jpg"
   },
   "/_ipx/w_600/blogs-img/blog6.jpg": {
     "type": "image/jpeg",
     "etag": "\"2695-sxQTmyL7ls/f7CvLcO5xd1mFZyk\"",
-    "mtime": "2024-06-24T04:28:22.393Z",
+    "mtime": "2024-07-04T04:44:16.983Z",
     "size": 9877,
     "path": "../../.output/public/_ipx/w_600/blogs-img/blog6.jpg"
   },
   "/__og-image__/image/about/og.png": {
     "type": "image/png",
     "etag": "\"29497-+fdep6Z9uXqdd1ybnwthyubsS4E\"",
-    "mtime": "2024-06-24T04:28:22.664Z",
+    "mtime": "2024-07-04T04:44:17.513Z",
     "size": 169111,
     "path": "../../.output/public/__og-image__/image/about/og.png"
   },
   "/__og-image__/image/blogs/og.png": {
     "type": "image/png",
     "etag": "\"33764-YVdEEh5PImcpmtOuiU38TRjOLCk\"",
-    "mtime": "2024-06-24T04:28:22.966Z",
+    "mtime": "2024-07-04T04:44:17.736Z",
     "size": 210788,
     "path": "../../.output/public/__og-image__/image/blogs/og.png"
   },
   "/__og-image__/image/categories/og.png": {
     "type": "image/png",
     "etag": "\"35ad0-yS2FGRkf3WXS7FJkYYB13OGR0f0\"",
-    "mtime": "2024-06-24T04:28:23.160Z",
+    "mtime": "2024-07-04T04:44:17.709Z",
     "size": 219856,
     "path": "../../.output/public/__og-image__/image/categories/og.png"
   },
   "/__og-image__/image/blogs/connect-namecheap-to-vercel/og.png": {
     "type": "image/png",
     "etag": "\"385fa-+XmeNc3JUZCE48mGJ5XY7MreRMo\"",
-    "mtime": "2024-06-24T04:28:22.926Z",
+    "mtime": "2024-07-04T04:44:17.932Z",
     "size": 230906,
     "path": "../../.output/public/__og-image__/image/blogs/connect-namecheap-to-vercel/og.png"
   },
   "/__og-image__/image/blogs/create-namespace-subdomain-connect-to-vercel/og.png": {
     "type": "image/png",
     "etag": "\"3c7c1-qH1XsqpGVlAMVmuLkYHJ9HuQT1A\"",
-    "mtime": "2024-06-24T04:28:22.934Z",
+    "mtime": "2024-07-04T04:44:18.230Z",
     "size": 247745,
     "path": "../../.output/public/__og-image__/image/blogs/create-namespace-subdomain-connect-to-vercel/og.png"
   },
   "/__og-image__/image/blogs/fetch-content-data-render-pages/og.png": {
     "type": "image/png",
     "etag": "\"263bd-UwF8oG6ZoxUcFb35Jsmtqh1Ybp4\"",
-    "mtime": "2024-06-24T04:28:23.234Z",
+    "mtime": "2024-07-04T04:44:18.447Z",
     "size": 156605,
     "path": "../../.output/public/__og-image__/image/blogs/fetch-content-data-render-pages/og.png"
   },
   "/__og-image__/image/blogs/fix-tailwindcss-intellisense-in-nuxt3/og.png": {
     "type": "image/png",
     "etag": "\"32b37-7VXrWnnww6HoeiEC4vMnXnk6K2w\"",
-    "mtime": "2024-06-24T04:28:23.462Z",
+    "mtime": "2024-07-04T04:44:18.557Z",
     "size": 207671,
     "path": "../../.output/public/__og-image__/image/blogs/fix-tailwindcss-intellisense-in-nuxt3/og.png"
   },
   "/__og-image__/image/blogs/how-to-fix-vuex-type-issue/og.png": {
     "type": "image/png",
     "etag": "\"1bb75-+Fv43VC9B8yXdZ9AfAXnUVsVnSs\"",
-    "mtime": "2024-06-24T04:28:23.362Z",
+    "mtime": "2024-07-04T04:44:18.495Z",
     "size": 113525,
     "path": "../../.output/public/__og-image__/image/blogs/how-to-fix-vuex-type-issue/og.png"
   },
   "/__og-image__/image/blogs/vue3-awesome-library/og.png": {
     "type": "image/png",
     "etag": "\"50e50-pN5n4Hc6tU/Q2pL/HhY2+TTx7y4\"",
-    "mtime": "2024-06-24T04:28:23.038Z",
+    "mtime": "2024-07-04T04:44:18.352Z",
     "size": 331344,
     "path": "../../.output/public/__og-image__/image/blogs/vue3-awesome-library/og.png"
   },
   "/__og-image__/image/categories/javascript/og.png": {
     "type": "image/png",
     "etag": "\"326ad-J20/ss0zR7UYoIVTkeFoIuS8mBM\"",
-    "mtime": "2024-06-24T04:28:23.584Z",
+    "mtime": "2024-07-04T04:44:18.734Z",
     "size": 206509,
     "path": "../../.output/public/__og-image__/image/categories/javascript/og.png"
   },
   "/__og-image__/image/categories/namecheap/og.png": {
     "type": "image/png",
     "etag": "\"32553-YQwpx1pgMN9mrTiVoIux/T/eZGg\"",
-    "mtime": "2024-06-24T04:28:23.715Z",
+    "mtime": "2024-07-04T04:44:18.870Z",
     "size": 206163,
     "path": "../../.output/public/__og-image__/image/categories/namecheap/og.png"
   },
   "/__og-image__/image/categories/nuxt/og.png": {
     "type": "image/png",
     "etag": "\"3131c-zC5L3w+Zi2YUXIivRFpTkupg1qQ\"",
-    "mtime": "2024-06-24T04:28:23.566Z",
+    "mtime": "2024-07-04T04:44:18.782Z",
     "size": 201500,
     "path": "../../.output/public/__og-image__/image/categories/nuxt/og.png"
   },
   "/__og-image__/image/categories/nuxt-content/og.png": {
     "type": "image/png",
     "etag": "\"32699-bZNPDAk/BYlQ3MOT2bPT+lq43ss\"",
-    "mtime": "2024-06-24T04:28:23.671Z",
+    "mtime": "2024-07-04T04:44:18.819Z",
     "size": 206489,
     "path": "../../.output/public/__og-image__/image/categories/nuxt-content/og.png"
   },
   "/__og-image__/image/categories/tailwindcss/og.png": {
     "type": "image/png",
     "etag": "\"33017-f9xKm4t2XkArpkekR5dSfM7hVls\"",
-    "mtime": "2024-06-24T04:28:23.703Z",
+    "mtime": "2024-07-04T04:44:18.893Z",
     "size": 208919,
     "path": "../../.output/public/__og-image__/image/categories/tailwindcss/og.png"
   },
   "/__og-image__/image/categories/vercel/og.png": {
     "type": "image/png",
     "etag": "\"3164c-sj46KUTMOUqPyYClEEMR8v2ahQA\"",
-    "mtime": "2024-06-24T04:28:23.601Z",
+    "mtime": "2024-07-04T04:44:18.860Z",
     "size": 202316,
     "path": "../../.output/public/__og-image__/image/categories/vercel/og.png"
   },
   "/__og-image__/image/categories/vue/og.png": {
     "type": "image/png",
     "etag": "\"30cbd-+gPECsKEwb3TqYNOCZABg2UaBVg\"",
-    "mtime": "2024-06-24T04:28:23.718Z",
+    "mtime": "2024-07-04T04:44:18.669Z",
     "size": 199869,
     "path": "../../.output/public/__og-image__/image/categories/vue/og.png"
   },
   "/__og-image__/image/categories/vuex/og.png": {
     "type": "image/png",
     "etag": "\"312e7-6P/yQ1iP98EFd0IYQhWsgzyt7jA\"",
-    "mtime": "2024-06-24T04:28:23.566Z",
+    "mtime": "2024-07-04T04:44:18.694Z",
     "size": 201447,
     "path": "../../.output/public/__og-image__/image/categories/vuex/og.png"
   }
@@ -3418,7 +3419,7 @@ const _f4b49z = eventHandler((event) => {
   return readAsset(id);
 });
 
-const _84Z94g = defineEventHandler(async (e) => {
+const _eKog5W = defineEventHandler(async (e) => {
   if (e.context.siteConfig)
     return;
   const runtimeConfig = useRuntimeConfig(e);
@@ -3487,7 +3488,7 @@ function createShikiHighlighter({
     const shiki2 = await getHighlighterCore({
       langs,
       themes,
-      loadWasm: () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/wasm.mjs')
+      loadWasm: () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/wasm.mjs')
     });
     for await (const config of await getConfigs()) {
       await config.shiki?.setup?.(shiki2);
@@ -3621,29 +3622,29 @@ function createShikiHighlighter({
 }
 
 const bundledLangs = {
-"javascript": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/javascript.mjs'),
-"js": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/javascript.mjs'),
-"jsx": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/jsx.mjs'),
-"json": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/json.mjs'),
-"typescript": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/typescript.mjs'),
-"ts": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/typescript.mjs'),
-"tsx": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/tsx.mjs'),
-"vue": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/vue.mjs'),
-"css": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/css.mjs'),
-"html": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/html.mjs'),
-"shellscript": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/shellscript.mjs'),
-"bash": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/shellscript.mjs'),
-"sh": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/shellscript.mjs'),
-"shell": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/shellscript.mjs'),
-"zsh": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/shellscript.mjs'),
-"markdown": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/markdown.mjs'),
-"md": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/markdown.mjs'),
-"mdc": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/mdc.mjs'),
-"yaml": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/yaml.mjs'),
-"yml": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/langs/yaml.mjs'),
+"javascript": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/javascript.mjs'),
+"js": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/javascript.mjs'),
+"jsx": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/jsx.mjs'),
+"json": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/json.mjs'),
+"typescript": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/typescript.mjs'),
+"ts": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/typescript.mjs'),
+"tsx": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/tsx.mjs'),
+"vue": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/vue.mjs'),
+"css": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/css.mjs'),
+"html": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/html.mjs'),
+"shellscript": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/shellscript.mjs'),
+"bash": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/shellscript.mjs'),
+"sh": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/shellscript.mjs'),
+"shell": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/shellscript.mjs'),
+"zsh": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/shellscript.mjs'),
+"markdown": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/markdown.mjs'),
+"md": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/markdown.mjs'),
+"mdc": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/mdc.mjs'),
+"yaml": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/yaml.mjs'),
+"yml": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/langs/yaml.mjs'),
 };
 const bundledThemes = {
-"dracula": () => import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/shiki/dist/themes/dracula.mjs').then(r => r.default),
+"dracula": () => import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/shiki/dist/themes/dracula.mjs').then(r => r.default),
 };
 const options = {"theme":"dracula"};
 const highlighter = createShikiHighlighter({ bundledLangs, bundledThemes, options, getMdcConfigs });
@@ -3654,7 +3655,7 @@ const mdcHighlighter = /*#__PURE__*/Object.freeze({
   default: highlighter
 });
 
-const _YOnV1j = eventHandler(async (event) => {
+const _71Zp53 = eventHandler(async (event) => {
   const { code, lang, theme: themeString, options: optionsStr } = getQuery$1(event);
   const theme = JSON.parse(themeString);
   const options = optionsStr ? JSON.parse(optionsStr) : {};
@@ -3666,7 +3667,7 @@ const robots = {
   "Disallow": ""
 };
 
-const _oHJnde = defineEventHandler(async (event) => {
+const _2vxnD4 = defineEventHandler(async (event) => {
   setHeader(event, "Content-Type", "text/plain");
   return render(await getRules(robots, event.req));
 });
@@ -4725,7 +4726,7 @@ const json = defineTransformer({
     let parsed;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
-        parsed = (await import('file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+        parsed = (await import('file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
       } else if (_id.endsWith("json")) {
         parsed = destr$1(content);
       }
@@ -5256,12 +5257,12 @@ function serverQueryContent$1(event, query, ...pathParts) {
 
 const serverQueryContent = serverQueryContent$1;
 
-const _oe36zG = defineEventHandler(async (e) => {
+const _3gwJSF = defineEventHandler(async (e) => {
   const contentList = await serverQueryContent(e).find();
   return contentList.map((c) => c.sitemap).filter(Boolean);
 });
 
-const _91ZaBH = defineEventHandler(async (e) => {
+const _c0cjNe = defineEventHandler(async (e) => {
   setHeader(e, "Content-Type", "application/xslt+xml");
   setHeader(e, "Cache-Control", "max-age=600, must-revalidate");
   const fixPath = createSitePathResolver(e, { absolute: false, withBase: true });
@@ -6137,7 +6138,7 @@ async function createSitemap(e, definition) {
   return sitemap;
 }
 
-const _mY9Boa = defineEventHandler(async (e) => {
+const _Y448lQ = defineEventHandler(async (e) => {
   const { sitemaps } = useSimpleSitemapRuntimeConfig();
   if ("index" in sitemaps) {
     return sendRedirect(e, withBase("/sitemap_index.xml", useRuntimeConfig().app.baseURL), 301);
@@ -6226,7 +6227,7 @@ const getContentQuery = (event) => {
   return query;
 };
 
-const _eHaH78 = defineEventHandler(async (event) => {
+const _LsvTLC = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   const { advanceQuery } = useRuntimeConfig().public.content.experimental;
   if (query.first) {
@@ -6255,7 +6256,7 @@ const _eHaH78 = defineEventHandler(async (event) => {
   return serverQueryContent$1(event, query).find();
 });
 
-const _MKMH0s = defineEventHandler(async (event) => {
+const _kVuaDu = defineEventHandler(async (event) => {
   const { content } = useRuntimeConfig();
   const now = Date.now();
   const contents = await serverQueryContent$1(event).find();
@@ -6363,7 +6364,7 @@ function isObject(obj) {
   return Object.prototype.toString.call(obj) === "[object Object]";
 }
 
-const _tEpfOJ = defineEventHandler(async (event) => {
+const _1HMHOF = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (!isPreview(event) && Object.keys(query).length === 0) {
     const cache = await cacheStorage.getItem("content-navigation.json");
@@ -6400,7 +6401,7 @@ const _tEpfOJ = defineEventHandler(async (event) => {
   return createNav(contents?.result || contents, configs);
 });
 
-const _9HqIYo = lazyEventHandler(() => {
+const _lALUmk = lazyEventHandler(() => {
   const opts = useRuntimeConfig().ipx || {};
   const fsDir = opts?.fs?.dir ? (Array.isArray(opts.fs.dir) ? opts.fs.dir : [opts.fs.dir]).map((dir) => isAbsolute(dir) ? dir : fileURLToPath(new URL(dir, globalThis._importMeta_.url))) : void 0;
   const fsStorage = opts.fs?.dir ? ipxFSStorage({ ...opts.fs, dir: fsDir }) : void 0;
@@ -6418,29 +6419,29 @@ const _9HqIYo = lazyEventHandler(() => {
   return useBase(opts.baseURL, ipxHandler);
 });
 
-const _lazy_kNoy5o = () => import('./routes/__og-image__/font/font.mjs');
-const _lazy_ZG0qqE = () => import('./routes/__og-image__/image/image.mjs');
-const _lazy_IqkP2w = () => import('./_/renderer3.mjs').then(function (n) { return n.r; });
+const _lazy_sLxlJV = () => import('./routes/__og-image__/font/font.mjs');
+const _lazy_WCyOWx = () => import('./routes/__og-image__/image/image.mjs');
+const _lazy_bR8WTz = () => import('./_/renderer3.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },
-  { route: '', handler: _84Z94g, lazy: false, middleware: true, method: undefined },
-  { route: '/__og-image__/font/**', handler: _lazy_kNoy5o, lazy: true, middleware: false, method: undefined },
-  { route: '/__og-image__/image/**', handler: _lazy_ZG0qqE, lazy: true, middleware: false, method: undefined },
-  { route: '/api/_mdc/highlight', handler: _YOnV1j, lazy: false, middleware: false, method: undefined },
-  { route: '/robots.txt', handler: _oHJnde, lazy: false, middleware: false, method: undefined },
-  { route: '/__sitemap__/nuxt-content-urls.json', handler: _oe36zG, lazy: false, middleware: false, method: undefined },
-  { route: '/__sitemap__/style.xsl', handler: _91ZaBH, lazy: false, middleware: false, method: undefined },
-  { route: '/sitemap.xml', handler: _mY9Boa, lazy: false, middleware: false, method: undefined },
-  { route: '/api/_content/query/:qid/**:params', handler: _eHaH78, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query/:qid', handler: _eHaH78, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query', handler: _eHaH78, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1719203261767.json', handler: _MKMH0s, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid/**:params', handler: _tEpfOJ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid', handler: _tEpfOJ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation', handler: _tEpfOJ, lazy: false, middleware: false, method: "get" },
-  { route: '/_ipx/**', handler: _9HqIYo, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_IqkP2w, lazy: true, middleware: false, method: undefined }
+  { route: '', handler: _eKog5W, lazy: false, middleware: true, method: undefined },
+  { route: '/__og-image__/font/**', handler: _lazy_sLxlJV, lazy: true, middleware: false, method: undefined },
+  { route: '/__og-image__/image/**', handler: _lazy_WCyOWx, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_mdc/highlight', handler: _71Zp53, lazy: false, middleware: false, method: undefined },
+  { route: '/robots.txt', handler: _2vxnD4, lazy: false, middleware: false, method: undefined },
+  { route: '/__sitemap__/nuxt-content-urls.json', handler: _3gwJSF, lazy: false, middleware: false, method: undefined },
+  { route: '/__sitemap__/style.xsl', handler: _c0cjNe, lazy: false, middleware: false, method: undefined },
+  { route: '/sitemap.xml', handler: _Y448lQ, lazy: false, middleware: false, method: undefined },
+  { route: '/api/_content/query/:qid/**:params', handler: _LsvTLC, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query/:qid', handler: _LsvTLC, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _LsvTLC, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1720068228930.json', handler: _kVuaDu, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid/**:params', handler: _1HMHOF, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _1HMHOF, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _1HMHOF, lazy: false, middleware: false, method: "get" },
+  { route: '/_ipx/**', handler: _lALUmk, lazy: false, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_bR8WTz, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -6569,5 +6570,5 @@ const localFetch = nitroApp.localFetch;
 const closePrerenderer = () => nitroApp.hooks.callHook("close");
 trapUnhandledNodeErrors();
 
-export { useStorage as a, useNitroApp as b, useRuntimeConfig as c, useNitroOrigin as d, decodeHtml as e, fetchIsland as f, getRouteRules as g, htmlDecodeQuotes as h, closePrerenderer as i, localFetch as l, mdcHighlighter as m, normaliseFontInput as n, resolveContext as r, toBase64Image as t, useOgImageRuntimeConfig as u };
+export { useStorage as a, useNitroApp as b, useRuntimeConfig as c, useAppConfig as d, useNitroOrigin as e, fetchIsland as f, getRouteRules as g, decodeHtml as h, htmlDecodeQuotes as i, closePrerenderer as j, localFetch as l, mdcHighlighter as m, normaliseFontInput as n, resolveContext as r, toBase64Image as t, useOgImageRuntimeConfig as u };
 //# sourceMappingURL=runtime.mjs.map

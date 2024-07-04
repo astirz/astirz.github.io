@@ -1,5 +1,5 @@
-import { createStorage } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unstorage/dist/index.mjs';
-import lruCacheDriver from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/unstorage/drivers/lru-cache.mjs';
+import { createStorage } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unstorage/dist/index.mjs';
+import lruCacheDriver from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/unstorage/drivers/lru-cache.mjs';
 
 const charMap = {
   "2049": "exclamation-question-mark",

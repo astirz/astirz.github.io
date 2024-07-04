@@ -1,4 +1,4 @@
-import _Highlight from 'C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/@nuxtjs/mdc/dist/runtime/highlighter/rehype-nuxt.mjs'
+import _Highlight from 'C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/@nuxtjs/mdc/dist/runtime/highlighter/rehype-nuxt.mjs'
 
 export const remarkPlugins = {
 }

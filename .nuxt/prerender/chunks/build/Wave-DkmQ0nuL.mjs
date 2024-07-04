@@ -1,5 +1,5 @@
-import { defineComponent, mergeProps, useSSRContext } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/vue/index.mjs';
-import { ssrRenderAttrs, ssrInterpolate } from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/vue/server-renderer/index.mjs';
+import { defineComponent, mergeProps, useSSRContext } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/vue/index.mjs';
+import { ssrRenderAttrs, ssrInterpolate } from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/vue/server-renderer/index.mjs';
 
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "Wave",

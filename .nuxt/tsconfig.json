@@ -20,9 +20,6 @@
       "@unhead/vue": [
         "../node_modules/@unhead/vue"
       ],
-      "@nuxt/devtools": [
-        "../node_modules/@nuxt/devtools"
-      ],
       "vue": [
         "../node_modules/vue"
       ],
@@ -120,7 +117,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/1b1bcc54-789d-4fa1-903a-2f7eeef759dc.json"
+        "./manifest/meta/22ce5de2-9f56-42e2-bb0b-e43220f39988.json"
       ],
       "#build": [
         "."
@@ -132,31 +129,23 @@
         "./components"
       ]
     },
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "target": "ESNext",
-    "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true,
-    "strict": true,
-    "noUncheckedIndexedAccess": false,
     "forceConsistentCasingInFileNames": true,
-    "noImplicitOverride": true,
-    "module": "preserve",
-    "noEmit": true,
-    "lib": [
-      "ESNext",
-      "dom",
-      "dom.iterable"
-    ],
     "jsx": "preserve",
     "jsxImportSource": "vue",
-    "types": [],
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "Bundler",
+    "skipLibCheck": true,
+    "isolatedModules": true,
     "useDefineForClassFields": true,
+    "strict": true,
     "noImplicitThis": true,
+    "esModuleInterop": true,
+    "types": [],
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true
   },
   "include": [
@@ -181,7 +170,6 @@
     ".."
   ],
   "exclude": [
-    "../dist",
     "../node_modules",
     "../node_modules/nuxt/node_modules",
     "../node_modules/nuxt-site-config/dist/node_modules",
@@ -200,6 +188,7 @@
     "../node_modules/@stefanobartoletti/nuxt-social-share/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
+    "../dist",
     "../.output"
   ]
 }

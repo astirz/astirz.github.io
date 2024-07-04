@@ -1,4 +1,4 @@
-import { c as card_vue_vue_type_style_index_0_scoped_5db914c5_lang } from './card-styles-1.mjs-CAO_Nd4v.mjs';
+const card_vue_vue_type_style_index_0_scoped_5db914c5_lang = ".rand-bg-color[data-v-5db914c5]{background-color:var(--c0ec55ca)}";
 
 const cardStyles_ZXetnhhL = [card_vue_vue_type_style_index_0_scoped_5db914c5_lang];
 

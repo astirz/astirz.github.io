@@ -1,4 +1,4 @@
-import _satori from 'file://C:/Users/Phong/Desktop/Materials/repo/nuxt-blog/node_modules/satori/dist/index.js';
+import _satori from 'file://C:/Users/Phong/Desktop/Materials/astirz.github.io/node_modules/satori/dist/index.js';
 
 const node = {
   initWasmPromise: Promise.resolve(),
