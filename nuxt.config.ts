@@ -10,8 +10,8 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
-    baseURL: '/astirz.github.io/', // baseURL: '/<repository>/'
-    buildAssetsDir: 'assets',
+    baseURL: '/astirz.github.io/',
+    cdnURL: 'https://astirz.github.io',
   },
 
   sitemap: {
@@ -35,6 +35,7 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: [
         '/',
+        '/categories'
       ],
     },
   },
