@@ -590,7 +590,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect,
-    component: () => import("./_nuxt/about-DicKAgP1.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/about-XBpAG42L.js").then((m) => m.default || m)
   },
   {
     name: "blogs-blog",
@@ -598,7 +598,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect,
-    component: () => import("./_nuxt/_blog_-DJIigjp9.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/_blog_-DoRs7ino.js").then((m) => m.default || m)
   },
   {
     name: "blogs",
@@ -606,7 +606,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect,
-    component: () => import("./_nuxt/index-DFQKcVBM.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-ClWv3xJT.js").then((m) => m.default || m)
   },
   {
     name: "categories-category",
@@ -630,7 +630,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: __nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect,
-    component: () => import("./_nuxt/index-Kof4h7Vd.js").then((m) => m.default || m)
+    component: () => import("./_nuxt/index-BhcohTlq.js").then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1062,8 +1062,8 @@ const LazyProseTh = defineAsyncComponent(() => import("./_nuxt/ProseTh-7YDqN2lc.
 const LazyProseThead = defineAsyncComponent(() => import("./_nuxt/ProseThead-C7eqtmqW.js").then((r) => r["default"] || r.default || r));
 const LazyProseTr = defineAsyncComponent(() => import("./_nuxt/ProseTr-BrHGGdGH.js").then((r) => r["default"] || r.default || r));
 const LazyProseUl = defineAsyncComponent(() => import("./_nuxt/ProseUl-DL9Jzjto.js").then((r) => r["default"] || r.default || r));
-const LazyIcon = defineAsyncComponent(() => import("./_nuxt/Icon-DssaW_-N.js").then((r) => r["default"] || r.default || r));
-const LazyIconCSS = defineAsyncComponent(() => import("./_nuxt/IconCSS-Cwe5DeZn.js").then((r) => r["default"] || r.default || r));
+const LazyIcon = defineAsyncComponent(() => import("./_nuxt/Icon-_fZCQKQl.js").then((r) => r["default"] || r.default || r));
+const LazyIconCSS = defineAsyncComponent(() => import("./_nuxt/IconCSS-BGqCegBq.js").then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
   ["ProseCode", LazyProseCode],
   ["ContentDoc", LazyContentDoc],
@@ -1521,7 +1521,7 @@ const __nuxt_component_0 = defineComponent({
   }
 });
 const layouts = {
-  default: () => import("./_nuxt/default-DeqA9rfO.js").then((m) => m.default || m)
+  default: () => import("./_nuxt/default-PBRXFmWB.js").then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
@@ -1794,7 +1794,7 @@ const seoData = {
   ogTitle: "Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving",
   twitterDescription: "My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc",
   image: "https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp",
-  mySite: "https://blog-nurriyad.vercel.app/"
+  mySite: "https://astirz.github.io.vercel.app/"
 };
 const siteMetaData = [
   {
@@ -1917,7 +1917,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = defineAsyncComponent(() => import("./_nuxt/island-renderer-08iqKpTs.js").then((r) => r.default || r));
+    const IslandRenderer = defineAsyncComponent(() => import("./_nuxt/island-renderer-DbLgcNf5.js").then((r) => r.default || r));
     const nuxtApp = /* @__PURE__ */ useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;

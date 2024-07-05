@@ -624,7 +624,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./about-DicKAgP1.mjs').then((m) => m.default || m)
+    component: () => import('./about-XBpAG42L.mjs').then((m) => m.default || m)
   },
   {
     name: "blogs-blog",
@@ -632,7 +632,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./_blog_-DJIigjp9.mjs').then((m) => m.default || m)
+    component: () => import('./_blog_-DoRs7ino.mjs').then((m) => m.default || m)
   },
   {
     name: "blogs",
@@ -640,7 +640,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DFQKcVBM.mjs').then((m) => m.default || m)
+    component: () => import('./index-ClWv3xJT.mjs').then((m) => m.default || m)
   },
   {
     name: "categories-category",
@@ -664,7 +664,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-Kof4h7Vd.mjs').then((m) => m.default || m)
+    component: () => import('./index-BhcohTlq.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1096,8 +1096,8 @@ const LazyProseTh = defineAsyncComponent(() => import('./ProseTh-7YDqN2lc.mjs').
 const LazyProseThead = defineAsyncComponent(() => import('./ProseThead-C7eqtmqW.mjs').then((r) => r["default"] || r.default || r));
 const LazyProseTr = defineAsyncComponent(() => import('./ProseTr-BrHGGdGH.mjs').then((r) => r["default"] || r.default || r));
 const LazyProseUl = defineAsyncComponent(() => import('./ProseUl-DL9Jzjto.mjs').then((r) => r["default"] || r.default || r));
-const LazyIcon = defineAsyncComponent(() => import('./Icon-DssaW_-N.mjs').then((r) => r["default"] || r.default || r));
-const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-Cwe5DeZn.mjs').then((r) => r["default"] || r.default || r));
+const LazyIcon = defineAsyncComponent(() => import('./Icon-_fZCQKQl.mjs').then((r) => r["default"] || r.default || r));
+const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-BGqCegBq.mjs').then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
   ["ProseCode", LazyProseCode],
   ["ContentDoc", LazyContentDoc],
@@ -1555,7 +1555,7 @@ const __nuxt_component_0 = defineComponent({
   }
 });
 const layouts = {
-  default: () => import('./default-DeqA9rfO.mjs').then((m) => m.default || m)
+  default: () => import('./default-PBRXFmWB.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
@@ -1828,7 +1828,7 @@ const seoData = {
   ogTitle: "Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving",
   twitterDescription: "My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc",
   image: "https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp",
-  mySite: "https://blog-nurriyad.vercel.app/"
+  mySite: "https://astirz.github.io.vercel.app/"
 };
 const siteMetaData = [
   {
@@ -1951,7 +1951,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = defineAsyncComponent(() => import('./island-renderer-08iqKpTs.mjs').then((r) => r.default || r));
+    const IslandRenderer = defineAsyncComponent(() => import('./island-renderer-DbLgcNf5.mjs').then((r) => r.default || r));
     const nuxtApp = /* @__PURE__ */ useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;

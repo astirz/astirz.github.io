@@ -9,16 +9,14 @@ export default defineNuxtConfig({
       meta: [{ name: 'description', content: 'Riyad\'s awesome blog' }],
     },
     pageTransition: { name: 'page', mode: 'out-in' },
-    layoutTransition: { name: 'layout', mode: 'out-in' },
-    baseURL: '/astirz.github.io/',
-    cdnURL: 'https://astirz.github.io',
+    layoutTransition: { name: 'layout', mode: 'out-in' }
   },
 
   sitemap: {
     strictNuxtContentPaths: true,
   },
   site: {
-    url: 'https://blog.nurriyad.xyz',
+    url: 'https://astirz.github.io',
     identity: {
       type: 'Person',
     },
